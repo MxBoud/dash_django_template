@@ -1,10 +1,14 @@
+
+Proper resource for Django Project : https://www.youtube.com/watch?v=dQw4w9WgXcQ
+
+
 # Dash Django Template
 
 **Dash Django Template** is a repository created to provide a skeleton for building Dash applications that utilize Django's powerful Object Relational Mapper (ORM) for database management. This template aims to combine the rapid development and flexibility of Dash with the robust, scalable, and well-structured capabilities of Django.
 
 ## Why this template?
 
-After experimenting extensively with both Dash and Django, it became evident that Django is an excellent choice for creating robust and scalable web applications. However, for smaller-scale projects that need to be developed quickly, Dash stands out with its ease of use, callback management, and the ability to design layouts entirely in Python. 
+After experimenting extensively with both Dash and Django, it became evident that Django is an excellent choice for creating robust and scalable web applications. However, for smaller-scale projects that need to be developed quickly, Dash stands out with its ease of use, callback management, and the ability to design layouts entirely in Python.
 
 By integrating Django's ORM with Dash's simplicity, this template allows developers to:
 - Quickly create dynamic and visually appealing Dash applications.
@@ -53,7 +57,7 @@ By integrating Django's ORM with Dash's simplicity, this template allows develop
 
 ### Running the Application
 
-#### Database Selection 
+#### Database Selection
 Database is configurable throught the django settings module (django_db/settings.py)
 . Default database is sqlite.
 
@@ -65,7 +69,7 @@ DATABASES = {
     }
 }
 
-``` 
+```
 
 Here is an example of configuration for a local MySQL server.
 ```
@@ -79,7 +83,7 @@ DATABASES = {
         'HOST': 'localhost',  # Use the database host (e.g., IP or hostname)
         'PORT': '3306',       # MySQL default port
     }
-} 
+}
 ```
 
 
@@ -96,7 +100,7 @@ DATABASES = {
    python manage.py runserver
    ```
 
-3. Run one of the examples: 
+3. Run one of the examples:
     ```bash
     python dash_app_download_edit.py
     ```
